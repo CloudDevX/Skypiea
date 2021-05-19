@@ -3,5 +3,5 @@ Max = 2
 if Version != "0.0.1":
     print("le code ici")
     
-Taches.append(r'os.mkdir("CHEMIN"+r"\.skypiea\launcher")')
-Taches.append(r'os.mkdir("CHEMIN"+r"\.skypiea\mods")')
+Taches.append(r'os.mkdir(CHEMIN+r"\.skypiea\launcher")')
+Taches.append(r'os.mkdir(CHEMIN+r"\.skypiea\mods")')
