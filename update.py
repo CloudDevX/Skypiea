@@ -3,5 +3,5 @@ Max = 3
 if Version != "0.0.1":
     print("le code ici")
     
-Taches[1] = 'os.mkdir("CHEMIN"+"\.skypiea\launcher")'
-Taches[2] = 'os.mkdir("CHEMIN"+"\.skypiea\mods")'
+Taches[1] = 'os.mkdir("CHEMIN"+r"\.skypiea\launcher")'
+Taches[2] = 'os.mkdir("CHEMIN"+r"\.skypiea\mods")'
