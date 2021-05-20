@@ -1,7 +1,7 @@
 #This is the Update file for the Skypiea launcher
-Max = 2
-if Version != "0.0.1":
-    print("le code ici")
-    
-Taches.append(r'os.mkdir(CHEMIN+r"\launcher")')
-Taches.append(r'os.mkdir(CHEMIN+r"\mods")')
+if Version != "0.0.1":   
+    Max = 4
+    Taches.append(r'os.mkdir(CHEMIN+r"\launcher")')
+    Taches.append(r'os.mkdir(CHEMIN+r"\mods")')
+    Taches.append(r'os.mkdir(CHEMIN+r"\assets")')
+    Taches.append(r'os.mkdir(CHEMIN+r"\assets\panorama")')
