@@ -8,7 +8,7 @@ if Version != "0.0.1":
     Taches.append(r'os.mkdir(CHEMIN+r"\mods")')
     Taches.append(r'os.mkdir(CHEMIN+r"\assets")')
     Taches.append(r'os.mkdir(CHEMIN+r"\assets\panorama")')
-    Taches.append(r'Download("https://github.com/CloudDevX/Skypiea/blob/main/sale.png", r"\assets\panorama\panorama.png")')
+    Taches.append(r'Download("https://raw.githubusercontent.com/CloudDevX/Skypiea/main/sale.png", r"\assets\panorama\panorama.png")')
 
 else:
     Loading = Max
