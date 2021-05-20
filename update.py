@@ -8,3 +8,6 @@ if Version != "0.0.1":
     Taches.append(r'os.mkdir(CHEMIN+r"\mods")')
     Taches.append(r'os.mkdir(CHEMIN+r"\assets")')
     Taches.append(r'os.mkdir(CHEMIN+r"\assets\panorama")')
+
+else:
+    Loading = Max
