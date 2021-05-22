@@ -11,6 +11,7 @@ if Version != "0.0.1":
     Taches.append(r'Download("https://raw.githubusercontent.com/CloudDevX/Skypiea/main/sale.png", r"\assets\panorama\panorama.png")')
     Taches.append(r'os.mkdir(CHEMIN+r"\assets\icon")')
     Taches.append(r'Download("https://raw.githubusercontent.com/CloudDevX/Skypiea/main/Mojang.png", r"\assets\icon\mojang.png")')
+    Taches.append(r'Download("https://raw.githubusercontent.com/CloudDevX/Skypiea/main/icon.png", r"\assets\icon\skypiea.png")')
 
 else:
     Loading = Max
