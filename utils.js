@@ -91,6 +91,21 @@ class Utilities {
           }
         },
         {
+          opcode: 'split',
+
+          blockType: Scratch.BlockType.REPORTER,
+
+          text: '[A] split [B]',
+          arguments: {
+            A: {
+              type: Scratch.ArgumentType.STRING
+            },
+            B: {
+              type: Scratch.ArgumentType.STRING
+            }
+          }
+        },
+        {
           opcode: 'size1',
           blockType: Scratch.BlockType.REPORTER,
           text: 'size 1'
@@ -236,6 +251,10 @@ class Utilities {
 
   exponent({A, B}) {
     return Math.pow(A, B);
+  }
+  
+  split({A, B}) {
+    return A.split(B);
   }
 
   size1() {
