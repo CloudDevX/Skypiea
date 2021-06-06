@@ -239,11 +239,11 @@ class Utilities {
   }
 
   size1() {
-    return $(window).height();
+    return window.innerWidth;
   }
 
   size2() {
-    return $(window).width();
+    return window.innerHeight;
   }
 
   ternaryOperator({A, B, C}) {
