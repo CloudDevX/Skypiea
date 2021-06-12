@@ -87,6 +87,9 @@ class WebSocket(object):
       self.server = server
       self.client = sock
       self.address = address
+        
+      self.player = None
+      self.ping = None
 
       self.handshaked = False
       self.headerbuffer = bytearray()
