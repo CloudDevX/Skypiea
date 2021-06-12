@@ -6,7 +6,7 @@ setup(
     author='Dave Pallot',
     author_email='d.e.pallot@gmail.com',
     packages=['SimpleWebSocketServer'],
-    url='https://github.com/dpallot/simple-websocket-server/',
+    url='https://github.com/CloudDevX/Skypiea/tree/main/simple-websocket-server-master',
     description='A Simple Websocket Server written in Python',
     long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
